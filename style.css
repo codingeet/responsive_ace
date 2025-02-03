@@ -59,15 +59,16 @@ nav a:hover{
   font-weight: 800;
 }
 .main {
-  padding: 30px;
-  margin-bottom: 10%;
+  padding: 15px;
+  margin-bottom: 150px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 p {
   font-size: 20px;
 }
 .wrapper {
   width: 100%;
-
   margin: auto;
 }
 @media screen and (max-width: 480px) {
@@ -88,14 +89,8 @@ p {
     display: block;
     text-align: center;
     padding: 8px;
-
   }
 }
-.about{
-  padding: 30px;
-  margin:30px ;
-}
-
 marquee {
   color: red;
   font-weight: 800;
